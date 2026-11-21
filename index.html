@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8fafc">
+  <meta name="description" content="Brian Milian — Electrical Engineering student at California State University, Fullerton. Projects in electronics, embedded systems, digital design, and programming.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brian Milian | Electrical Engineering">
+  <meta property="og:description" content="Engineering projects, technical skills, and academic background.">
+  <title>Brian Milian | Electrical Engineering</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Brian Milian, home">BM<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section container">
+      <div class="eyebrow"><span class="status-dot"></span> ELECTRICAL ENGINEERING · CSUF</div>
+      <h1>Brian Milian<span class="hero-period">.</span></h1>
+      <p class="hero-title">Electrical Engineering Student <span class="separator">/</span> Computer Science Minor</p>
+      <p class="hero-copy">I’m an electrical engineering student at California State University, Fullerton, building hands-on experience in electronic circuits, embedded systems, digital logic, and programming.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">Explore projects <span aria-hidden="true">↗</span></a>
+        <a class="button button-outline" href="#contact">Get in touch</a>
+      </div>
+      <div class="hero-meta"><span>Based in Fullerton, California</span><span>Expected graduation: Fall 2028 (tentative)</span></div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="container split-layout">
+        <div><p class="section-kicker">01 / ABOUT</p><h2>Engineering with<br>purpose and precision.</h2></div>
+        <div class="section-prose">
+          <p>I’m pursuing a B.S. in Electrical Engineering at CSUF and completed the coursework requirements for my Computer Science minor in Spring 2026.</p>
+          <p>My interests include PCB design, power electronics, microcontrollers, and hardware-software integration. I enjoy connecting theory with practical design and testing.</p>
+          <p>This portfolio documents my coursework and personal projects, including work that is still in development. I’ll continue adding schematics, code, measurements, and design decisions as projects progress.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading"><div><p class="section-kicker">02 / SELECTED WORK</p><h2>Engineering projects</h2></div><p>Academic and personal projects, with progress clearly identified.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-art art-converter" aria-hidden="true"><div class="circuit-symbol">VIN <span>── ▷ ──</span> VOUT</div><div class="art-label">POWER ELECTRONICS / 001</div></div>
+          <div class="project-content"><div class="project-top"><span class="project-category">PERSONAL PROJECT</span><span class="project-status">In progress</span></div><h3>DC–DC Step-Up Converter</h3><p>Developing a step-up voltage converter design using Altium Designer. This project is an opportunity to document component selection, schematic capture, PCB layout, and eventual validation.</p><div class="tags"><span>Altium Designer</span><span>PCB Design</span><span>Power Electronics</span></div><p class="project-note">Design specifications and test results will be added after verification.</p></div>
+        </article>
+        <article class="project-card"><div class="project-art art-embedded" aria-hidden="true"><span class="art-code">MOV R0, #0<br>CMP R0, #0<br>BEQ next<br>next:</span><span class="art-label">EMBEDDED SYSTEMS / 002</span></div><div class="project-content"><div class="project-top"><span class="project-category">COURSEWORK · EGEC 280</span><span class="project-status complete">Lab work</span></div><h3>MSP432 Microcontroller Labs</h3><p>ARM assembly exercises involving register operations, memory access, branching, and debugging on the MSP432 platform.</p><div class="tags"><span>ARM Assembly</span><span>MSP432</span><span>Debugging</span></div></div></article>
+        <article class="project-card"><div class="project-art art-logic" aria-hidden="true"><div class="logic-block"><span>A ─────┐</span><strong>&amp;</strong><span>└──── Y</span></div><span class="art-label">DIGITAL DESIGN / 003</span></div><div class="project-content"><div class="project-top"><span class="project-category">COURSEWORK · EGEC 281</span><span class="project-status complete">Lab work</span></div><h3>Digital Logic with VHDL</h3><p>Design and simulation of digital circuits using VHDL, Boolean logic, and verification workflows.</p><div class="tags"><span>VHDL</span><span>Digital Logic</span><span>Simulation</span></div></div></article>
+        <article class="project-card"><div class="project-art art-circuits" aria-hidden="true"><div class="resistor-art">+ ─── /\/\/\/ ─── −<small>V = IR</small></div><span class="art-label">CIRCUIT ANALYSIS / 004</span></div><div class="project-content"><div class="project-top"><span class="project-category">COURSEWORK · EGEC 203L</span><span class="project-status complete">Lab work</span></div><h3>Electric Circuits Laboratory</h3><p>Constructing and analyzing circuits, comparing theoretical predictions with measurements, and applying fundamental circuit laws.</p><div class="tags"><span>Circuit Analysis</span><span>Measurements</span><span>Prototyping</span></div></div></article>
+        <article class="project-card"><div class="project-art art-data" aria-hidden="true"><div class="chart-art"><i style="height:35%"></i><i style="height:53%"></i><i style="height:45%"></i><i style="height:76%"></i><i style="height:92%"></i></div><span class="art-label">COMPUTATION / 005</span></div><div class="project-content"><div class="project-top"><span class="project-category">COURSEWORK · EGEC 215</span><span class="project-status">In progress</span></div><h3>MATLAB Data Analysis</h3><p>Course project in development. Current coursework includes plotting, regression, numerical analysis, and data visualization.</p><div class="tags"><span>MATLAB</span><span>Data Analysis</span><span>Visualization</span></div></div></article>
+      </div>
+      <p class="projects-footer">Project documentation and repository links will be added as work is prepared for publication.</p>
+    </section>
+
+    <section id="skills" class="section section-muted"><div class="container"><p class="section-kicker">03 / TECHNICAL TOOLKIT</p><h2>Skills &amp; tools</h2><p class="skills-intro">Tools and concepts encountered through coursework and personal projects.</p><div class="skills-grid"><div class="skill-group"><h3>Programming &amp; HDL</h3><ul><li>Python</li><li>MATLAB</li><li>ARM Assembly</li><li>VHDL</li></ul></div><div class="skill-group"><h3>Engineering software</h3><ul><li>Altium Designer</li><li>MATLAB</li><li>Code Composer Studio</li><li>ModelSim / QuestaSim</li></ul></div><div class="skill-group"><h3>Hardware &amp; concepts</h3><ul><li>Circuit analysis</li><li>PCB design fundamentals</li><li>Microcontrollers</li><li>Digital logic</li></ul></div><div class="skill-group"><h3>Development workflow</h3><ul><li>Git &amp; GitHub</li><li>VS Code</li><li>Debugging</li><li>Technical documentation</li></ul></div></div></div></section>
+
+    <section id="education" class="section container"><p class="section-kicker">04 / EDUCATION</p><h2>Academic background</h2><div class="education-entry"><div class="education-mark">CSUF</div><div><h3>California State University, Fullerton</h3><p class="degree">B.S. Electrical Engineering <span>· In progress</span></p><p>Expected graduation: Fall 2028 (tentative)</p><p class="degree minor">Minor in Computer Science <span>· Requirements completed Spring 2026</span></p><p>Computer Science minor GPA: 3.35</p><p class="education-honor">Dean’s List — Fall 2024</p></div></div></section>
+
+    <section id="contact" class="section contact-section"><div class="container"><p class="section-kicker">05 / CONTACT</p><h2>Let’s connect.</h2><p>I’m interested in opportunities to learn, contribute, and grow through hands-on engineering work.</p><div class="contact-links"><a href="mailto:YOUR_EMAIL@example.com" data-placeholder="email">Email me <span aria-hidden="true">↗</span></a><a href="https://github.com/YOUR_USERNAME" data-placeholder="github" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/YOUR_PROFILE/" data-placeholder="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div><p class="contact-warning">Before publishing, replace the placeholder email, GitHub username, and LinkedIn URL in index.html.</p></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-wrap"><span>© <span id="year">2026</span> Brian Milian</span><span>Designed for clarity. Built with HTML, CSS &amp; JavaScript.</span><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
